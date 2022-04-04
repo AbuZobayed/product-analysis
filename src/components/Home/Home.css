@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    margin-top: 40px;
+    margin: 80px;
+}
+.header-text{
+    color: blue;
+    font-weight: 700;
+    font-size: 50px;
+}
+.header img{
+    border-radius: 20px;
+    
+}
+
+.customer-reviews{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
