@@ -1,51 +1,39 @@
 [
     {
       "id": 1,
-      "productName": "Smart Watch",
-      "picture": "https://www.startech.com.bd/image/cache/catalog/watch/xiaomi/haylou-ls02/haylou-ls02-500x500.jpeg",
       "name": "Osborne Pratt",
+      "rating":"5 star",
       "reviews": "Xiaomi Haylou LS02 Touch Screen Square Shape Smart Watch Black is so beautiful and stylish. It can be used all the time. that's really a good product for this price range. \r\n"
     },
     {
       "id": 2,
-      "productName": "DJI Mini SE Drone Combo",
-      "picture": "https://www.startech.com.bd/image/cache/catalog/drones/dji/dji-mini-se/dji-mini-se-01-500x500.jpg",
       "name": "French Huffman",
+      "rating":"4 star",
       "reviews": "The best drones have brought responsive flying experiences to the masses, and their camera and streaming capabilities have made it cheaper and easier for filmmakers to take to the skies for a smooth, 4K aerial shot. We dive into the entry-level and enthusiast options from popular drone makers, like DJI, to see what each new drone brings to the market.\r\n"
     },
     {
       "id": 3,
-      "productName": "TX3 Mini-A Android 7.1 2GB RAM 16GB ROM TV Box",
-      "picture": "https://www.startech.com.bd/image/cache/catalog/tv-box/tx3/tx3-mini-a/tx3-mini-a-0001-500x500.jpg",
       "name": "Forbes Kaufman",
+      "rating":"4 star",
       "reviews": "Incididunt velit Lorem et excepteur ex ex. Lorem est pariatur ea ad non id occaecat eu. Lorem Lorem ullamco officia voluptate sit ex consequat. Aliqua tempor adipisicing sint ut Lorem. Proident et aliquip commodo mollit cupidatat fugiat.\r\n"
     },
     {
       "id": 4,
-      "productName": "Mobile Extension Cable",
-      "picture": "https://www.startech.com.bd/image/cache/catalog/charger/baseus/ccbt-a0g/ccbt-a0g-01-500x500.jpg",
       "name": "Keith Guerrero",
+      "rating":"3.5 star",
       "reviews": "Baseus CCBT-A0G Share Together PPS Multi-port Fast Charging Car Charger with Extension Cable very good product. \r\n"
     },
     {
       "id": 5,
-      "productName": "Casio MJ-120D Calculator",
-      "picture": "https://www.startech.com.bd/image/cache/catalog/daily-lifestyle/calculator/mj-120d/mj-120d-1-500x500.jpg",
       "name": "Geneva Santos",
+      "rating":"5 star",
       "reviews": "Est ad nisi voluptate dolore occaecat ex ullamco id tempor amet. Exercitation commodo commodo nostrud reprehenderit. Irure nulla occaecat eu ad ea esse. Aliqua cillum dolor occaecat cupidatat excepteur magna culpa qui consequat.\r\n"
     },
     {
       "id": 6,
-      "productName": "Handhold Rechargeable Fan",
-      "picture": "https://www.startech.com.bd/image/cache/catalog/gadget/daily-lifestyle/orico/fh1/fh1-01-500x500.jpg",
       "name": "Villarreal Decker",
+      "rating":"4.5 star",
       "reviews": "Ipsum eiusmod deserunt ipsum magna aliquip nostrud ipsum tempor aute. Excepteur amet ad Lorem deserunt qui aute ea. \r\n"
-    },
-    {
-      "id": 7,
-      "productName": "Xiaomi Amazfit Band 5 Fitness Tracker",
-      "picture": "https://www.startech.com.bd/image/cache/catalog/smart-watch/xiaomi/amazfit-a2005-band-5/amazfit-a2005-band-5-500x500.jpg",
-      "name": "Tammie Long",
-      "reviews": "In one word it is awesome. The amoled screen is great with great colors . Great connectivity with phone and the best app  of smart watch. It is better than mi band 5 as it has mic for Alexa.  \r\n"
     }
+    
   ]

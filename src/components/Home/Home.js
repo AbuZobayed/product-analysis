@@ -1,8 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import ReviewDatails from '../ReviewDatails/ReviewDatails';
+import UseData from '../UseData/UseData';
 import './Home.css'
 
 
 const Home = () => {
+    const [data ,setData] = UseData()
     return (
         <div >
            <div className='header'>
@@ -22,6 +26,13 @@ const Home = () => {
            <div className='customer-reviews'>
                <h1>Customer Reviews</h1>
            </div>
+           <div>
+               
+           {
+                   data.slice(0,3).map(info => <ReviewDatails key={info.id} info={info}></ReviewDatails>)
+               }
+           </div>
+           <Link to="/reviews">Show more</Link>
         </div>
 
         
