@@ -8,6 +8,7 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import Blags from "./components/Blogs/Blogs";
 import About from "./components/About/About";
 import NotFound from './components/NotFound/NotFound';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

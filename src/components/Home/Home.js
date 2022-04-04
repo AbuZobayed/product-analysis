@@ -15,7 +15,7 @@ const Home = () => {
             <h2>Welcome to Tech Gedgets </h2>
             <p>Tech Gedgets was started way back in 2003 by two freelance technology journalists, Chris Price and Ashley Norris. Experienced writers for the UK’s Daily Mirror and The Guardian respectively – as well as a whole host of monthly magazines from Future and Dennis Publishing – it was their first foray into blogging.</p>
 
-            <button>Live demo</button>
+            <button className='live-demo'>Live demo</button>
             </div>
 
             <div>
@@ -24,15 +24,17 @@ const Home = () => {
            </div>
 
            <div className='customer-reviews'>
-               <h1>Customer Reviews</h1>
+               <h1>Customer Reviews(3)</h1>
            </div>
-           <div>
+           <div className='container mt-5'>
+           <div className='row row-cols-md-3 '>
                
-           {
-                   data.slice(0,3).map(info => <ReviewDatails key={info.id} info={info}></ReviewDatails>)
-               }
+               {
+                       data.slice(0,3).map(info => <ReviewDatails key={info.id} info={info}></ReviewDatails>)
+                   }
+               </div>
            </div>
-           <Link to="/reviews">Show more</Link>
+           <Link className='show-more' to="/reviews">Show more...</Link>
         </div>
 
         
