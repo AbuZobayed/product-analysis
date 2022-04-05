@@ -24,7 +24,7 @@ const Home = () => {
            </div>
 
            <div className='customer-reviews'>
-               <h1>Customer Reviews(3)</h1>
+               <h1>Customer Reviews(<small className='review-number'>3</small>)</h1>
            </div>
            <div className='container mt-5'>
            <div className='row row-cols-md-3 '>

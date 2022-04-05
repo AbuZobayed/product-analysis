@@ -23,6 +23,9 @@
     color: white;
     border-radius: 5px;
 }
+.review-number{
+    color: blue;
+}
 .show-more{
     display: flex;
     justify-content: center;

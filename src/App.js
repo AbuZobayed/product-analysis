@@ -10,6 +10,7 @@ import About from "./components/About/About";
 import NotFound from './components/NotFound/NotFound';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function App() {
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
       <Route path='*' element={<NotFound></NotFound>}></Route>
 
     </Routes>
+    
     
     </>
    
