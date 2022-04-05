@@ -9,9 +9,7 @@ const Blogs = () => {
            <div className='context'>
                 <h3>What is Context Api ?</h3>
                     <p>
-                    Context provides a way to pass data through the component tree without having to pass props down manually at every level.
-            In a typical React application, data is passed top-down  via props, but such usage can be cumbersome for certain types of props that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.
-
+                    In React we usually send data from one component to another. In that case the data of one component has to be sent to another child component as props. Often the situation is that the child component is much lower than our main component where your data is. That means that data component has another child component, again that child component has another child component. There may be many children doing this. Now if we want to take data from the main component . To pass data. It's like taking data while digging. We usually use Redux in such situations.  In that case we have a global status that any child can access later if they want, without having to pass all the components as props and take data.
                     </p>
             </div>
             <div className='semantic'>
