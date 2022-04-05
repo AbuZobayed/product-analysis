@@ -1,7 +1,7 @@
 # Assignment-9
 ## Tach Gedgets
 
-Live site link [Tech Gedgets](https://github.com/facebook/create-react-app).
+Live site link [Tech Gedgets](https://sparkling-gnome-a4197a.netlify.app/).
 
 ## Work Done
 

@@ -45,10 +45,10 @@ const Dashboard = () => {
        <div className='dashboard'>
             <div className='line-chart'>
             <LineChart width={600} height={500} data={data}>
-            <Line dataKey={'price'}></Line>
+            <Line dataKey={'price'} stroke="#8884d8"></Line>
             <Line dataKey={'sell'}></Line>
-            <Line dataKey={'revenue'}></Line>
-            <XAxis dataKey={'month'}></XAxis>
+            <Line dataKey={'revenue'}stroke="#82ca9d"></Line>
+            <XAxis dataKey={'month'} ></XAxis>
             <Tooltip></Tooltip>
             <YAxis></YAxis>
         </LineChart>
@@ -56,9 +56,9 @@ const Dashboard = () => {
         <div className='bar-chart'>
             <BarChart width={800} height={500} data={data}>
 
-                <Bar dataKey={'price'}></Bar>
+                <Bar dataKey={'price'} fill="#8884d8"></Bar>
                 <Bar dataKey={'sell'}></Bar>
-                <Bar dataKey={'revenue'}></Bar>
+                <Bar dataKey={'revenue'} ></Bar>
                 <XAxis dataKey={'month'}></XAxis>
                 <Tooltip></Tooltip>
                 <YAxis></YAxis>
